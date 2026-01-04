@@ -1,0 +1,12 @@
+struct node_hash {
+    string clau;
+    Valor valor;
+    node_hash *seg;
+};
+
+node_hash **_taula;
+nat _M;
+nat _quants;
+
+
+

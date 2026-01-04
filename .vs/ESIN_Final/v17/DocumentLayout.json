@@ -1,0 +1,184 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\terminal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:terminal.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\terminal.rep||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:terminal.rep||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\ubicacio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ubicacio.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\cataleg.rep||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cataleg.rep||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\cataleg.t||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:cataleg.t||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\contenidor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:contenidor.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\contenidor.rep||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:contenidor.rep||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\ubicacio.rep||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ubicacio.rep||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ubicacio.rep",
+              "DocumentMoniker": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\ubicacio.rep",
+              "RelativeDocumentMoniker": "ubicacio.rep",
+              "ToolTip": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\ubicacio.rep",
+              "RelativeToolTip": "ubicacio.rep",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-04T09:14:45.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ubicacio.cpp",
+              "DocumentMoniker": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\ubicacio.cpp",
+              "RelativeDocumentMoniker": "ubicacio.cpp",
+              "ToolTip": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\ubicacio.cpp",
+              "RelativeToolTip": "ubicacio.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-04T09:14:33.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "terminal.rep",
+              "DocumentMoniker": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\terminal.rep",
+              "RelativeDocumentMoniker": "terminal.rep",
+              "ToolTip": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\terminal.rep",
+              "RelativeToolTip": "terminal.rep",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-04T09:14:20.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "terminal.cpp",
+              "DocumentMoniker": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\terminal.cpp",
+              "RelativeDocumentMoniker": "terminal.cpp",
+              "ToolTip": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\terminal.cpp",
+              "RelativeToolTip": "terminal.cpp",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwE4AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-04T09:14:07.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "contenidor.rep",
+              "DocumentMoniker": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\contenidor.rep",
+              "RelativeDocumentMoniker": "contenidor.rep",
+              "ToolTip": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\contenidor.rep",
+              "RelativeToolTip": "contenidor.rep",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-04T09:13:53.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "contenidor.cpp",
+              "DocumentMoniker": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\contenidor.cpp",
+              "RelativeDocumentMoniker": "contenidor.cpp",
+              "ToolTip": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\contenidor.cpp",
+              "RelativeToolTip": "contenidor.cpp",
+              "ViewState": "AgIAACEAAAAAAAAAAAAQwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-01-04T09:13:41.261Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "cataleg.t",
+              "DocumentMoniker": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\cataleg.t",
+              "RelativeDocumentMoniker": "cataleg.t",
+              "ToolTip": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\cataleg.t",
+              "RelativeToolTip": "cataleg.t",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-04T09:13:30.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cataleg.rep",
+              "DocumentMoniker": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\cataleg.rep",
+              "RelativeDocumentMoniker": "cataleg.rep",
+              "ToolTip": "C:\\Users\\jieke\\Documents\\ESIN\\ESIN_Final\\cataleg.rep",
+              "RelativeToolTip": "cataleg.rep",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2026-01-04T09:12:58.357Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

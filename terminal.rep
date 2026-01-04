@@ -1,0 +1,17 @@
+nat _files;
+nat _places;
+nat _altura;
+
+estrategia _estrategia;
+nat _ops_grua;
+list<string> area_esp;
+
+cataleg<contenidor> _contenidors;
+string*** _term;
+
+
+ubicacio buscar_first_fit(nat longitud) const;
+ubicacio buscar_estrat_lliure(nat longitud) const;
+bool espai_disponible(nat fila, nat placa, nat altura, nat longitud) const;
+void colocar_contenidor(contenidor &c, ubicacio &u);
+void processar_area_espera();
