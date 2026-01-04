@@ -47,7 +47,7 @@ void terminal::colocar_contenidor(contenidor& c, ubicacio& u) {
     nat fila = u.filera();
     nat placa = u.placa();
     nat altura = u.pis();
-    for (int i = placa; i < placa + num_places; i++) _term[fila][i][altura] = c.matricula();
+    for (nat i = placa; i < placa + num_places; i++) _term[fila][i][altura] = c.matricula();
     _contenidors.assig(c.matricula(), c);
     _ops_grua++;
 }

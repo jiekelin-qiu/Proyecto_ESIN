@@ -18,10 +18,7 @@ cataleg<Valor>::cataleg(const cataleg& c) {
     for (nat i=0; i<_M; i++) {
         node_hash *posicio=c._taula[i];
         while (posicio!=nullptr) {
-            node_hash *aux=new node_hash;
-            aux->clau=posicio->clau;
-            aux->valor=posicio->valor;
-            aux->seg=nullptr;
+            node_hash *aux=new node_hash{act->clau, act->valor, nullptr};
         if (_taula[i]==nullptr) _taula[i]=aux;
         else {
             node_hash *aux2=_taula[i];
@@ -55,10 +52,7 @@ cataleg<Valor>& cataleg<Valor>::operator=(const cataleg& c) {
         for (nat i=0; i<_M; i++) {
             node_hash *posicio=c._taula[i];
             while (posicio!=nullptr) {
-                node_hash *aux=new node_hash;
-                aux->clau=posicio->clau;
-                aux->valor=posicio->valor;
-                aux->seg=nullptr;
+                node_hash *aux=new node_hash{act->clau, act->valor, nullptr};
             if (_taula[i]==nullptr) _taula[i]=aux;
             else {
                 node_hash *aux2=_taula[i];
