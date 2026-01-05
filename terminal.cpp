@@ -53,27 +53,68 @@ void terminal::colocar_contenidor(contenidor& c, ubicacio& u) {
 }
 
 void terminal::processar_area_espera() {
-    bool colocat = true;
-    while (colocat and not area_esp.empty()) {
-        colocat = false;
-        list<string>::reverse_iterator it = area_esp.rbegin();
-        while (it != area_esp.rend()) {
-            const string matricula = *it;
-            const contenidor conte = _contenidors[matricula];
-            ubicacio u(-1, -1, -1);
-            u = buscar_first_fit(conte.longitud());
-            if (u.filera() != -1) {
-                nat num_places = conte.longitud() / 10;
-                for (nat i = u.placa(); i < u.placa() + num_places; i++) _term[u.filera()][i][u.pis()] = matricula;
-                _ops_grua++;
-                ++it;                                           //incrementem perque quan es crea amb .base(), apunta una posicio endavant del lloc de reverse_iterator (ex: si tenim [A, B, C, D] i reverse_iterator apunta a C, al fer .base() aquest apuntara a D. Llavors ens movem a B i .base() estaria C.
-                list<string>::iterator it_aux = it.base();        //.base() fa un iterador normal a partir del reverse iterator it. Ho fem perque .erase() no funciona amb reverse_iterator                                               
-                area_esp.erase(it_aux);
-                colocat = true;
+    bool mogut = true;
+
+    while (mogut && !area_esp.empty()) {
+        mogut = false;
+
+        string a_moure = "";
+        bool trobat = false;
+
+        if (_estrategia == estrategia::FIRST_FIT) {
+            list<string>::reverse_iterator rit = area_esp.rbegin();
+            while (rit != area_esp.rend() && !trobat) {
+                string mat = *rit;
+
+                if (_contenidors.existeix(mat)) {
+                    contenidor cont = _contenidors[mat];
+                    ubicacio pos = buscar_first_fit(cont.longitud());
+
+                    if (pos.filera() != -1) {
+                        a_moure = mat;
+                        trobat = true;
+                    }
+                }
+
+                ++rit;
             }
-            else {
+        } else {
+            list<string>::iterator it = area_esp.begin();
+            while (it != area_esp.end() && !trobat) {
+                string mat = *it;
+
+                if (_contenidors.existeix(mat)) {
+                    contenidor cont = _contenidors[mat];
+                    ubicacio pos = buscar_estrat_lliure(cont.longitud());
+
+                    if (pos.filera() != -1) {
+                        a_moure = mat;
+                        trobat = true;
+                    }
+                }
+
                 ++it;
             }
+        }
+
+        if (!trobat) {
+            mogut = false;
+        } else {
+            contenidor cont = _contenidors[a_moure];
+            ubicacio pos(-1, -1, -1);
+
+            if (_estrategia == estrategia::FIRST_FIT) pos = buscar_first_fit(cont.longitud());
+            else pos = buscar_estrat_lliure(cont.longitud());
+
+            nat np = cont.longitud() / 10;
+            for (nat p = pos.placa(); p < pos.placa() + np; ++p) {
+                _term[pos.filera()][p][pos.pis()] = a_moure;
+            }
+
+            _ops_grua++;
+            area_esp.remove(a_moure);
+
+            mogut = true;
         }
     }
 }
@@ -218,7 +259,7 @@ void terminal::retira_contenidor(const string &m) {
         while (itn != need.end()) {
             string x = *itn;
             ubicacio ux = on(x);
-            if (ux == ubicacio(-1, 0, 0)) {
+            if (ux == ubicacio(-1, 0, 0) or ux == ubicacio(-1, -1, -1)) {
                 ++itn;
                 continue;
             }
@@ -252,6 +293,9 @@ void terminal::retira_contenidor(const string &m) {
     bool objectiu_lliure = false;
     while (!objectiu_lliure) {
         ubicacio um = on(m);
+        if (um == ubicacio(-1, -1, -1) || um == ubicacio(-1, 0, 0)) {
+            break;
+        }
         nat f = (nat)um.filera();
         nat j = (nat)um.placa();
         nat k = (nat)um.pis();
